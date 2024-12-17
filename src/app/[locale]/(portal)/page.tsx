@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { loginLink } from "./_components/links";
-import { registerLink } from "./_components/links";
+import { registerLink } from "@/app/[locale]/_components/links";
+import { loginLink } from "@/app/[locale]/_components/links";
 
 export default async function Page() {
   return (
